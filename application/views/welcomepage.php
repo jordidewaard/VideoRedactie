@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<button type="button">Faka Button</button>
+<button type="button">Hanad Button</button>
 
 </body>
 </html>
