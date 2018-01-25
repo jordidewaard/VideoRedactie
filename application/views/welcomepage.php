@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
 <head>
     <link href="<?php echo base_url(); ?>public/css/style.css" rel="stylesheet">
+    <script type='text/javascript' src="<?php echo base_url(); ?>public/js/script.js"></script>
     <title>Hello</title>
 </head>
-<body>
+    <a href="<?php echo base_url(); ?>contactForm">Contact</a>
+    <a href="<?php echo base_url(); ?>login">Login</a>
+    <a href="<?php echo base_url(); ?>register">Register</a>
+</div>
 
-<button type="button">Hanad Button</button>
 
 </body>
 </html>
