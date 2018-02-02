@@ -26,7 +26,12 @@ if (isset($this->session->userdata['logged_in'])) {
     echo "Je email-adres is " . $email;
     echo "<br/>";
     ?>
+
+    <br><a href="<?php echo base_url(); ?>contactForm">Videosets Aanmaken</a></br>
+
     <b id="logout"><a href="logout">Logout</a></b>
+
+
 </div>
 <br/>
 </body>
