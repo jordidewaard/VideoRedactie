@@ -1,6 +1,6 @@
 <?php
 
-Class Login_Database extends CI_Model {
+Class login_database extends CI_Model {
 
 // Insert registration data in database
     public function registration_insert($data) {

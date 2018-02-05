@@ -135,3 +135,6 @@ $autoload['language'] = array();
 */
 $autoload['model'] = array();
 
+
+$autoload['session'] = array();
+

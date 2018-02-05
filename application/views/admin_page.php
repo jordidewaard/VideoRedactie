@@ -27,12 +27,13 @@ if (isset($this->session->userdata['logged_in'])) {
     echo "<br/>";
     ?>
 
-    <br><a href="<?php echo base_url(); ?>contactForm">Videosets Aanmaken</a></br>
+    <br><a href="<?php echo base_url(); ?>users">Users Editen</a></br>
 
     <b id="logout"><a href="logout">Logout</a></b>
-
-
 </div>
+
+
+
 <br/>
 </body>
 </html>

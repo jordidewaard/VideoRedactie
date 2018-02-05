@@ -3,24 +3,24 @@
 Class register extends CI_Controller {
 
 public function __construct() {
-parent::__construct();
+    parent::__construct();
 
-// Load form helper library
-$this->load->helper('form');
+    // Load form helper library
+    $this->load->helper('form');
 
-// Load form validation library
-$this->load->library('form_validation');
+    // Load form validation library
+    $this->load->library('form_validation');
 
-// Load session library
-$this->load->library('session');
+    // Load session library
+    $this->load->library('session');
 
-// Load database
-$this->load->model('login_database');
+    // Load database
+    $this->load->model('login_database');
 }
 
 // Show login page
 public function index() {
-$this->load->view('register');
+    $this->load->view('register');
 }
 
 // Show registration page
@@ -36,7 +36,7 @@ $this->form_validation->set_rules('username', 'Username', 'trim|required');
 $this->form_validation->set_rules('email_value', 'Email', 'trim|required');
 $this->form_validation->set_rules('password', 'Password', 'trim|required');
 if ($this->form_validation->run() == FALSE) {
-$this->load->view('registration_form');
+$this->load->view('register');
 } else {
 $data = array(
 'user_name' => $this->input->post('username'),
@@ -107,5 +107,6 @@ $this->load->view('login', $data);
 }
 
 }
+
 
 ?>

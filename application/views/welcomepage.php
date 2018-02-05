@@ -4,9 +4,10 @@
     <script type='text/javascript' src="<?php echo base_url(); ?>public/js/script.js"></script>
     <title>Hello</title>
 </head>
-    <a href="<?php echo base_url(); ?>contactForm">Videosets Aanmaken</a>
+
     <a href="<?php echo base_url(); ?>login">Login</a>
     <a href="<?php echo base_url(); ?>register">Register</a>
+
 </div>
 
 
